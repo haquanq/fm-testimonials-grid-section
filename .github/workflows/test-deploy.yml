@@ -1,5 +1,14 @@
 name: e2e testing
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 on:
   push:
     branches: [main]
@@ -19,3 +28,9 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps
       - run: npm run test
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "dist/"
+      - uses: actions/deploy-pages@v4
