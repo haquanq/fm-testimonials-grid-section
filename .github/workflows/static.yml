@@ -1,9 +1,7 @@
 name: deploy gh-pages
 
 on:
-  workflow_run:
-    workflows: ["e2e testing"]
-    types: ["completed"]
+  workflow_dispatch:
 
 permissions:
   contents: read
