@@ -1,7 +1,6 @@
 name: e2e testing
 
 on:
-  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -9,7 +8,7 @@ on:
       - "playwright/**"
 
 jobs:
-  build-test:
+  test:
     timeout-minutes: 60
     runs-on: ubuntu-20.04
     steps:
@@ -18,6 +17,5 @@ jobs:
         with:
           node-version: lts/*
       - run: npm ci
-      - run: mkdir -p ./dist; mv -v ./src/* ./dist/; npm run postcss
       - run: npx playwright install --with-deps
-      - run: npm run test:e2e
+      - run: npm run test

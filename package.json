@@ -6,16 +6,15 @@
     "@types/node": "^20.12.12",
     "autoprefixer": "^10.4.19",
     "browser-sync": "^3.0.2",
-    "copyfiles": "^2.4.1",
     "cssnano": "^7.0.1",
     "postcss": "^8.4.38",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "shx": "^0.3.4"
   },
   "scripts": {
     "dev": "browser-sync start -s src -f src --no-ui",
-    "test": "npm run copy && npm run postcss && playwright test -c playwright/playwright.config.js",
-    "copy": "copyfiles -u 1 src/**/* dist",
-    "postcss": "postcss dist/main.css -u autoprefixer cssnano --no-map --replace"
+    "test": "npm run build && playwright test -c playwright/playwright.config.js",
+    "build": "shx mkdir -p ./dist/ && shx cp -r ./src/* ./dist/ && postcss dist/main.css -u autoprefixer cssnano --no-map --replace"
   },
   "author": "haquanq",
   "license": "MIT"
