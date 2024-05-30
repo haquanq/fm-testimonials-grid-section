@@ -18,6 +18,6 @@ jobs:
         with:
           node-version: lts/*
       - run: npm ci
-      - run: mv -v ~/src/* ~/dist/ ;npm run postcss
+      - run: mv -v src/* dist/ ;npm run postcss
       - run: npx playwright install --with-deps
       - run: npm run test:e2e
