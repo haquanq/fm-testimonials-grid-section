@@ -1,4 +1,4 @@
-name: e2e testing
+name: build-test-deployment
 
 permissions:
   contents: read
@@ -17,7 +17,7 @@ on:
       - "playwright/**"
 
 jobs:
-  test:
+  build-test-deploy:
     timeout-minutes: 60
     runs-on: ubuntu-20.04
     steps:
