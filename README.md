@@ -12,11 +12,12 @@ Users should be able to:
 ### Solution
 
 - Built with: `HTML` `CSS`
-- [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-4q_5cnXuVT)[`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
+
+[`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-4q_5cnXuVT) [`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
 
 ![](./.docs/design/desktop-design.jpg)
 
-## Working in `fm-results-summary-component` repository
+## Working in `fm-testimonials-grid-section` repository
 
 ### Packages being used
 
@@ -27,7 +28,7 @@ Users should be able to:
 Make sure you have Git installed in your system, open new terminal, run the following command:
 
 ```
-git clone https://github.com/haquanq/fm-results-summary-component.git
+git clone https://github.com/haquanq/fm-testimonials-grid-section.git
 ```
 
 Then, run `npm install` to install all dependencies.
