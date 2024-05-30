@@ -19,3 +19,4 @@ node_modules/
 test-results/
 html-report/
 build/
+dist/

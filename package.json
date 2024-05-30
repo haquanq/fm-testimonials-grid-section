@@ -13,8 +13,9 @@
   },
   "scripts": {
     "dev": "browser-sync start -s src -f src --no-ui",
-    "test": "npm run build && playwright test -c playwright/playwright.config.js",
-    "build": "copyfiles -u 1 src/**/* dist && postcss dist/main.css -u autoprefixer cssnano --no-map --replace"
+    "test": "npm run copy && npm run postcss && playwright test -c playwright/playwright.config.js",
+    "copy": "copyfiles -u 1 src/**/* dist",
+    "postcss": "postcss dist/main.css -u autoprefixer cssnano --no-map --replace"
   },
   "author": "haquanq",
   "license": "MIT"
