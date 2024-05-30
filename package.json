@@ -8,17 +8,13 @@
     "browser-sync": "^3.0.2",
     "copyfiles": "^2.4.1",
     "cssnano": "^7.0.1",
-    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0"
   },
   "scripts": {
     "dev": "browser-sync start -s src -f src --no-ui",
-    "test:e2e": "playwright test -c playwright/playwright.config.js",
-    "postcss": "postcss build/main.css -u autoprefixer cssnano --no-map --replace",
-    "copy": "copyfiles -u 1 src/**/* build",
-    "build": "run-s copy postcss",
-    "test": "run-s build test:e2e"
+    "test": "npm run build && playwright test -c playwright/playwright.config.js",
+    "build": "copyfiles -u 1 src/**/* build &&  postcss build/main.css -u autoprefixer cssnano --no-map --replace"
   },
   "author": "haquanq",
   "license": "MIT"
