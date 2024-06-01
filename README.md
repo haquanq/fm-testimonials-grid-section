@@ -5,13 +5,16 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### The challenge
 
+- No access to design files :expressionless:
+
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen size :yum:
 
 ### Solution
 
 - Built with: `HTML` `CSS`
+- Mobile first workflow
 
 [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-4q_5cnXuVT) [`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
 
