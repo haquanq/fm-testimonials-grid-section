@@ -16,7 +16,7 @@ Users should be able to:
 - Built with: `HTML` `CSS`
 - Mobile first workflow
 
-[`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-4q_5cnXuVT) [`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
+:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-4q_5cnXuVT) :link: [`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
 
 ![](./.docs/design/desktop-design.jpg)
 
