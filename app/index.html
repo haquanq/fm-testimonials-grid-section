@@ -9,143 +9,130 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
     <link rel="stylesheet" href="./main.css" />
 
     <title>Frontend Mentor | Testimonial Grid Section</title>
   </head>
   <body>
-    <div class="testimonial-wrapper">
-      <article class="testimonial">
-        <div>
-          <img
-            class="person-image"
-            src="./assets/image-daniel.jpg"
-            alt="daniel-avatar"
-          />
-          <p class="person-name">
-            Daniel Clifford
-            <span>Verified Graduate</span>
-          </p>
-        </div>
-        <h3 class="review">
-          I received a job offer mid-course, and the subjects I learned were
-          current, if not more so, in the company I joined. I honestly feel I
-          got every penny’s worth.
-        </h3>
-        <p class="quote">
-          “ I was an EMT for many years before I joined the bootcamp. I’ve been
-          looking to make a transition and have heard some people who had an
-          amazing experience here. I signed up for the free intro course and
-          found it incredibly fun! I enrolled shortly thereafter. The next 12
-          weeks was the best - and most grueling - time of my life. Since
-          completing the course, I’ve successfully switched careers, working as
-          a Software Engineer at a VR startup. ”
-        </p>
-      </article>
+    <main class="main__container">
+      <h1 hidden>Testimonial grid section</h1>
+      <div class="testimonial__wrapper">
+        <article class="testimonial__item">
+          <div class="testimonial__person">
+            <img
+              class="testimonial__person__avatar"
+              src="./assets/images/image-daniel.jpg"
+              alt="Daniel Clifford avatar"
+            />
+            <div>
+              <p class="testimonial__person__name">Daniel Clifford</p>
+              <p class="testimonial__person__verified">Verified Graduate</p>
+            </div>
+          </div>
+          <h2 class="testimonial__summary">
+            I received a job offer mid-course, and the subjects I learned were current, if not more
+            so, in the company I joined. I honestly feel I got every penny’s worth.
+          </h2>
+          <blockquote class="testimonial__quote">
+            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
+            transition and have heard some people who had an amazing experience here. I signed up
+            for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+            The next 12 weeks was the best - and most grueling - time of my life. Since completing
+            the course, I’ve successfully switched careers, working as a Software Engineer at a VR
+            startup. ”
+          </blockquote>
+        </article>
 
-      <article class="testimonial">
-        <div>
-          <img
-            class="person-image"
-            src="./assets/image-jonathan.jpg"
-            alt="jonathan-avatar"
-          />
-          <p class="person-name">
-            Jonathan Walters
-            <span> Verified Graduate </span>
-          </p>
-        </div>
-        <h3 class="review">
-          The team was very supportive and kept me motivated
-        </h3>
-        <p class="quote">
-          “ I started as a total newbie with virtually no coding skills. I now
-          work as a mobile engineer for a big company. This was one of the best
-          investments I’ve made in myself. ”
-        </p>
-      </article>
+        <article class="testimonial__item">
+          <div class="testimonial__person">
+            <img
+              class="testimonial__person__avatar"
+              src="./assets/images/image-jonathan.jpg"
+              alt="Jonathan Walters avatar"
+            />
+            <div>
+              <p class="testimonial__person__name">Jonathan Walters</p>
+              <p class="testimonial__person__verified">Verified Graduate</p>
+            </div>
+          </div>
+          <h2 class="testimonial__summary">The team was very supportive and kept me motivated</h2>
+          <blockquote class="testimonial__quote">
+            “ I started as a total newbie with virtually no coding skills. I now work as a mobile
+            engineer for a big company. This was one of the best investments I’ve made in myself. ”
+          </blockquote>
+        </article>
 
-      <article class="testimonial">
-        <div>
-          <img
-            class="person-image"
-            src="./assets/image-jeanette.jpg"
-            alt="user-avatar"
-          />
-          <p class="person-name">
-            Jeanette Harmon
-            <span> Verified Graduate </span>
-          </p>
-        </div>
-        <h3 class="review">An overall wonderful and rewarding experience</h3>
-        <p class="quote">
-          “ Thank you for the wonderful experience! I now have a job I really
-          enjoy, and make a good living while doing something I love. ”
-        </p>
-      </article>
+        <article class="testimonial__item">
+          <div class="testimonial__person">
+            <img
+              class="testimonial__person__avatar"
+              src="./assets/images/image-jeanette.jpg"
+              alt="Jeanette Harmon avatar"
+            />
+            <div>
+              <p class="testimonial__person__name">Jeanette Harmon</p>
+              <p class="testimonial__person__verified">Verified Graduate</p>
+            </div>
+          </div>
+          <h2 class="testimonial__summary">An overall wonderful and rewarding experience</h2>
+          <blockquote class="testimonial__quote">
+            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a
+            good living while doing something I love. ”
+          </blockquote>
+        </article>
 
-      <article class="testimonial">
-        <div>
-          <img
-            class="person-image"
-            src="./assets/image-patrick.jpg"
-            alt="user-avatar"
-          />
-          <p class="person-name">
-            Patrick Abrams
-            <span> Verified Graduate </span>
-          </p>
-        </div>
-        <h3 class="review">
-          Awesome teaching support from TAs who did the bootcamp themselves.
-          Getting guidance from them and learning from their experiences was
-          easy.
-        </h3>
-        <p class="quote">
-          “ The staff seem genuinely concerned about my progress which I find
-          really refreshing. The program gave me the confidence necessary to be
-          able to go out in the world and present myself as a capable junior
-          developer. The standard is above the rest. You will get the personal
-          attention you need from an incredible community of smart and amazing
-          people. ”
-        </p>
-      </article>
+        <article class="testimonial__item">
+          <div class="testimonial__person">
+            <img
+              class="testimonial__person__avatar"
+              src="./assets/images/image-patrick.jpg"
+              alt="Patrick Abrams avatar"
+            />
+            <div>
+              <p class="testimonial__person__name">Patrick Abrams</p>
+              <p class="testimonial__person__verified">Verified Graduate</p>
+            </div>
+          </div>
+          <h2 class="testimonial__summary">
+            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from
+            them and learning from their experiences was easy.
+          </h2>
+          <blockquote class="testimonial__quote">
+            “ The staff seem genuinely concerned about my progress which I find really refreshing.
+            The program gave me the confidence necessary to be able to go out in the world and
+            present myself as a capable junior developer. The standard is above the rest. You will
+            get the personal attention you need from an incredible community of smart and amazing
+            people. ”
+          </blockquote>
+        </article>
 
-      <article class="testimonial">
-        <div>
-          <img
-            class="person-image"
-            src="./assets/image-kira.jpg"
-            alt="user-avatar"
-          />
-          <p class="person-name">
-            Kira Whittle
-            <span> Verified Graduate </span>
-          </p>
-        </div>
-        <h3 class="review">
-          Such a life-changing experience. Highly recommended!
-        </h3>
-        <p class="quote">
-          “ Before joining the bootcamp, I’ve never written a line of code. I
-          needed some structure from professionals who can help me learn
-          programming step by step. I was encouraged to enroll by a former
-          student of theirs who can only say wonderful things about the program.
-          The entire curriculum and staff did not disappoint. They were very
-          hands-on and I never had to wait long for assistance. The agile team
-          project, in particular, was outstanding. It took my learning to the
-          next level in a way that no tutorial could ever have. In fact, I’ve
-          often referred to it during interviews as an example of my developent
-          experience. It certainly helped me land a job as a full-stack
-          developer after receiving multiple offers. 100% recommend! ”
-        </p>
-      </article>
-    </div>
+        <article class="testimonial__item">
+          <div class="testimonial__person">
+            <img
+              class="testimonial__person__avatar"
+              src="./assets/images/image-kira.jpg"
+              alt="Kira Whittle avatar"
+            />
+            <div>
+              <p class="testimonial__person__name">Kira Whittle</p>
+              <p class="testimonial__person__verified">Verified Graduate</p>
+            </div>
+          </div>
+          <h2 class="testimonial__summary">Such a life-changing experience. Highly recommended!</h2>
+          <blockquote class="testimonial__quote">
+            “ Before joining the bootcamp, I’ve never written a line of code. I needed some
+            structure from professionals who can help me learn programming step by step. I was
+            encouraged to enroll by a former student of theirs who can only say wonderful things
+            about the program. The entire curriculum and staff did not disappoint. They were very
+            hands-on and I never had to wait long for assistance. The agile team project, in
+            particular, was outstanding. It took my learning to the next level in a way that no
+            tutorial could ever have. In fact, I’ve often referred to it during interviews as an
+            example of my developent experience. It certainly helped me land a job as a full-stack
+            developer after receiving multiple offers. 100% recommend! ”
+          </blockquote>
+        </article>
+      </div>
+    </main>
   </body>
 </html>
