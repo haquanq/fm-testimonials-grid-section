@@ -1,30 +1,61 @@
-## Frontend Mentor - Testimonials grid section solution
+# Frontend Mentor - Testimonials grid section solution
 
 This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### The challenge
+## Table of contents
 
-- No access to design files, attempt pixel-perfect
+- [Project overview](#rocket-project-overview)
+- [My workflow](#boat-my-workflow)
+- [How to work in this repository](#astronaut-how-to-work-in-this-repository)
+- [License](#page_with_curl-license)
+
+## :rocket: Project overview
+
+### Challenge requirements
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Solution
+### Implemented features
 
-- Built with: `HTML` `CSS`
-- Mobile-first workflow
+Accessibility features:
 
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/pixel-perfect-with-html-and-css-6aDYE3MWi2) :link: [`Live Site Link`](https://haquanq.github.io/frontendmentor-testimonials-grid-section)
+| Feature                                        | Progress             |
+| ---------------------------------------------- | -------------------- |
+| Reponse optimally across different screen size | [:white_check_mark:] |
+
+### Screenshots
 
 ![](./.docs/design/desktop-design.jpg)
 
-## Working in `fm-testimonials-grid-section` repository
+## :boat: My workflow
+
+### Approach
+
+Developed with mobile-first workflow.
+
+### Built with
+
+| Tool         | Note                     |
+| ------------ | ------------------------ |
+| `JavaScript` | Programming language     |
+| `HTML`       | Standard markup language |
+| `CSS`        | Style sheet language     |
+
+## :astronaut: Working in `fm-testimonials-grid-section` repository
+
+### Presequisites
+
+Having these tools installed:
+
+- Git (prefer lastest LTS version)
+- NodeJS (prefer latest LTS version)
 
 ### Clone this project to your machine
 
-Make sure you have Git installed in your system, open new terminal, run the following command:
+Open new terminal, run the following command:
 
 ```
 git clone https://github.com/haquanq/fm-testimonials-grid-section.git
@@ -43,3 +74,7 @@ In terminal, run `npm run dev` to start development server:
 ```
 npm run dev
 ```
+
+## :page_with_curl: License
+
+This project follows [MIT License](./LICENSE). **Do not** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions) as this will prove you are too lazy to complete anything in your life and you are a moron.
