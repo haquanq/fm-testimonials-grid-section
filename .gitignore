@@ -15,8 +15,4 @@
 .DS_Store
 
 .prettierignore
-node_modules/
-test-results/
-html-report/
-build/
-dist/
+node_modules
