@@ -22,9 +22,9 @@ Users should be able to:
 
 Accessibility features:
 
-| Feature                                        | Progress           |
-| ---------------------------------------------- | ------------------ |
-| Reponse optimally across different screen size | :white_check_mark: |
+| Feature                                        | Progress               |
+| ---------------------------------------------- | ---------------------- |
+| Reponse optimally across different screen size | [ :white_check_mark: ] |
 
 ### Screenshots
 
